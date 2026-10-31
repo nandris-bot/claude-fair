@@ -1,0 +1,28 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1d1d1f;
+  --card: #f4f4f6;
+  --accent: #c15f3c;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #18181b; --fg: #f4f4f5; --card: #27272a; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+}
+header, main, footer { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+header h1 { color: var(--accent); margin-bottom: 4px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.card { background: var(--card); border-radius: 12px; padding: 16px; }
+.card h3 { margin: 0 0 8px; }
+.price { font-weight: 600; }
+footer { opacity: .7; font-size: .9rem; }

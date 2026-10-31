@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Minta termék 1", "description": "Ide jön a termék leírása.", "price": 4990 },
+  { "id": 2, "name": "Minta termék 2", "description": "Ide jön a termék leírása.", "price": 7990 }
+]
