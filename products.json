@@ -1,4 +1,10 @@
 [
-  { "id": 1, "name": "Minta termék 1", "description": "Ide jön a termék leírása.", "price": 4990 },
-  { "id": 2, "name": "Minta termék 2", "description": "Ide jön a termék leírása.", "price": 7990 }
+  { "id": 1, "category": "Tárolók", "name": "SSD 500 GB (SATA)", "description": "Gyors, megbízható meghajtó régebbi gépek feljavításához.", "price": 14990 },
+  { "id": 2, "category": "Tárolók", "name": "NVMe SSD 1 TB", "description": "Modern gépekbe, nagy sebességű tárhely.", "price": 24990 },
+  { "id": 3, "category": "Memóriák", "name": "DDR4 16 GB (2×8 GB) kit", "description": "Asztali gépekhez, 3200 MHz.", "price": 21990 },
+  { "id": 4, "category": "Memóriák", "name": "SO-DIMM DDR4 8 GB", "description": "Laptopokhoz, 3200 MHz.", "price": 10990 },
+  { "id": 5, "category": "Kiegészítők", "name": "Vezeték nélküli egér", "description": "Csendes kattintású, hosszú üzemidejű, USB vevővel.", "price": 4990 },
+  { "id": 6, "category": "Kiegészítők", "name": "Laptoptáska 15,6\"", "description": "Párnázott, vízálló anyag.", "price": 7490 },
+  { "id": 7, "category": "Hálózat", "name": "Wifi 6 router", "description": "Gyors, stabil otthoni vagy kisirodai hálózathoz.", "price": 19990 },
+  { "id": 8, "category": "Karbantartás", "name": "Tisztítókészlet gépekhez", "description": "Sűrített levegő, mikroszálas kendő, kefe.", "price": 3490 }
 ]

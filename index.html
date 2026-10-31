@@ -3,25 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Claude Fair</title>
-  <meta name="description" content="Claude Fair – bemutatkozó oldal és termékek.">
+  <title>Óbuda PC – számítógépszerviz és webshop</title>
+  <meta name="description" content="Óbuda PC: PC- és laptopszerviz, adatmentés, hálózatépítés és számítástechnikai termékek Óbudán. (Tesztoldal)">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Claude Fair</h1>
-    <p>Üdvözlünk az oldalon! Hamarosan további tartalommal.</p>
+  <div class="test-banner">Tesztoldal: az itt megjelenő cégadatok és termékek kitaláltak, később cseréljük őket.</div>
+
+  <nav>
+    <div class="wrap">
+      <a class="logo" href="/">Óbuda<span>PC</span></a>
+      <ul>
+        <li><a class="link" href="#szolgaltatasok">Szolgáltatások</a></li>
+        <li><a class="link" href="#rolunk">Rólunk</a></li>
+        <li><a class="link" href="#elerhetoseg">Elérhetőség</a></li>
+        <li><a class="link" href="bolt">Webshop</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <h1>Gyors és megbízható számítógépszerviz Óbudán</h1>
+      <p>Laptop- és PC-javítás, adatmentés, hálózatépítés, valamint minőségi alkatrészek és kiegészítők: egy helyen, tisztességes áron.</p>
+      <a class="btn" href="#elerhetoseg">Kérjen árajánlatot</a>
+      <a class="btn ghost" href="bolt">Irány a webshop</a>
+    </div>
   </header>
 
   <main>
-    <h2>Termékeink</h2>
-    <div id="products" class="grid"></div>
+    <section id="szolgaltatasok">
+      <div class="wrap">
+        <h2>Szolgáltatásaink</h2>
+        <p class="lead">Otthoni felhasználóknak és kisvállalkozásoknak egyaránt.</p>
+        <div class="grid">
+          <article class="card"><h3>PC- és laptopszerviz</h3><p>Hibakeresés, alkatrészcsere, tisztítás, hűtés-karbantartás.</p></article>
+          <article class="card"><h3>Vírusirtás, újratelepítés</h3><p>Lassú vagy fertőzött gép rendbetétele, Windows-telepítés, driverek.</p></article>
+          <article class="card"><h3>Adatmentés</h3><p>Sérült vagy hibás meghajtókról fájlok mentése, biztonsági mentés beállítása.</p></article>
+          <article class="card"><h3>Hálózat és wifi</h3><p>Otthoni és irodai hálózat kiépítése, wifi-lefedettség javítása.</p></article>
+          <article class="card"><h3>Kisvállalati IT-támogatás</h3><p>Havi átalánydíjas karbantartás, távsegítség, gyors helyszíni kiszállás.</p></article>
+          <article class="card"><h3>Új és használt gépek</h3><p>Átvizsgált, garanciális használt gépek és új konfigurációk.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="rolunk">
+      <div class="wrap">
+        <h2>Rólunk</h2>
+        <p class="lead">Az Óbuda PC egy családias hangulatú műhely, ahol mindent kimondunk, ami a gépeddel történik: előre megmondjuk az árat, és csak azt cseréljük, amit tényleg kell.</p>
+        <div class="grid">
+          <article class="card"><h3>Átlátható árak</h3><p>Javítás előtt mindig egyeztetünk, meglepetés nincs.</p></article>
+          <article class="card"><h3>Gyors átfutás</h3><p>A legtöbb hibát 1–2 munkanapon belül megoldjuk.</p></article>
+          <article class="card"><h3>Garancia</h3><p>A javításra és az eladott termékekre is garanciát vállalunk.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="elerhetoseg" class="contact">
+      <div class="wrap">
+        <h2>Elérhetőség</h2>
+        <p class="lead">Keressen bátran, vagy nézzen be hozzánk.</p>
+        <dl>
+          <dt>Cím</dt><dd>1033 Budapest, Minta utca 1. (kitalált cím)</dd>
+          <dt>Telefon</dt><dd>+36 1 000 0000 (kitalált szám)</dd>
+          <dt>E-mail</dt><dd>info@obudapc.hu (példa)</dd>
+          <dt>Nyitvatartás</dt><dd>H–P: 9–17, Szo: 9–13, V: zárva</dd>
+        </dl>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; Claude Fair</p>
+    <div class="wrap">&copy; Óbuda PC &middot; obudapc.hu &middot; Tesztoldal</div>
   </footer>
-
-  <script src="app.js"></script>
 </body>
 </html>
